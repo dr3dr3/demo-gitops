@@ -23,7 +23,10 @@ jobs:
         env:
           gitops-secret: ${{ secrets.GITOPS_PAT }}
         if: ${{ env.gitops-secret == '' }}
-        run: echo "echo the secret \"GITOPS_PAT\" has not been made; echo please go to \"settings \> secrets \> actions \> repository secrets\" to create it"
+        run: |
+          echo "The secret \"GITOPS_PAT\" has not been made"
+          echo "Please go to \"settings \> secrets \> actions \> repository secrets\" to create it"
+          exit 1
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,8 +34,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
   
-      - name: Install Node dependencies
-        run: npm install
+      # - name: Install Node dependencies
+      #   run: npm install
 
       - name: Create label for short-lived feature branches
         run: gh label create "$LABEL_NAME" --description "$LABEL_DESC" --color "$LABEL_COLOR" --force
