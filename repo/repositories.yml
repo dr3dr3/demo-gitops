@@ -3,7 +3,7 @@ repositories:
     - name: www
       repo: demo-nextjs
       repoDescription: 'Demo Website'
-      repoTemplate: template-nextjs-landing
+      repoTemplate: template-nextjs-general
       groups: 
       - www
       - default
