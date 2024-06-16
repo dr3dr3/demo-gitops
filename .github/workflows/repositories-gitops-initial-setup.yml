@@ -25,7 +25,9 @@ jobs:
         if: ${{ env.gitops-secret == '' }}
         run: |
           echo "The secret \"GITOPS_PAT\" has not been made"
-          echo "Please go to \"settings \> secrets \> actions \> repository secrets\" to create it"
+          echo "Please go to \"settings > secrets > actions > repository secrets\" to create it"
+          echo "### 🛑 ERROR" >> $GITHUB_STEP_SUMMARY
+          echo "The secret \"GITOPS_PAT\" has not been made" >> $GITHUB_STEP_SUMMARY
           exit 1
 
       - name: Checkout
