@@ -10,8 +10,8 @@ permissions:
 
 jobs:
 
-  get-config:
-    name: Repositories GitOps
+  initial-setup:
+    name: Initial Setup
     runs-on: ubuntu-latest
     permissions:
       contents: write

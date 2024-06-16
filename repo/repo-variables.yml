@@ -1,141 +1,141 @@
 repoVariables:
 
   - name: SOLUTION
-    repo: andre-nextjs
+    repo: demo-nextjs
     value: nextjs
   - name: SOLN_GROUP
-    repo: andre-nextjs
+    repo: demo-nextjs
     value: www
   - name: SOLN_DIR
-    repo: andre-nextjs
+    repo: demo-nextjs
     value: landing
   - name: OUTPUT_DIR
-    repo: andre-nextjs
+    repo: demo-nextjs
     value: out
   - name: SITE_URL
-    repo: andre-nextjs
-    value: https://ci-www.andredreyer.com
+    repo: demo-nextjs
+    value: https://ci-www.a9ile.com
   - name: BUILD_FLAGS_URL
-    repo: andre-nextjs
-    value: https://dr3dr3.github.io/andre-featurevisor/datafiles/build/datafile-tag-all.json
+    repo: demo-nextjs
+    value: https://dr3dr3.github.io/demo-featurevisor/datafiles/build/datafile-tag-all.json
   - name: DEPLOY_CI
-    repo: andre-nextjs
+    repo: demo-nextjs
     value: GITHUB-PAGES
   - name: REPO_GITOPS
-    repo: andre-nextjs
-    value: dr3dr3/andre-gitops
+    repo: demo-nextjs
+    value: dr3dr3/demo-gitops
   - name: REPO_STAGE
-    repo: andre-nextjs
-    value: dr3dr3/andre-stage
+    repo: demo-nextjs
+    value: dr3dr3/demo-stage
   - name: REPO_PROD
-    repo: andre-nextjs
-    value: dr3dr3/andre-prod
+    repo: demo-nextjs
+    value: dr3dr3/demo-prod
   - name: CHECK_LINKS
-    repo: andre-nextjs
+    repo: demo-nextjs
     value: 'false'
 
   - name: SOLUTION
-    repo: andre-revealmd
+    repo: demo-revealmd
     value: revealmd
   - name: SOLN_GROUP
-    repo: andre-revealmd
+    repo: demo-revealmd
     value: www
   - name: SOLN_DIR
-    repo: andre-revealmd
+    repo: demo-revealmd
     value: revealmd
   - name: OUTPUT_DIR
-    repo: andre-revealmd
+    repo: demo-revealmd
     value: out
   - name: SITE_URL
-    repo: andre-revealmd
-    value: https://ci-slides.andredreyer.com
+    repo: demo-revealmd
+    value: https://ci-slides.a9ile.com
   - name: DEPLOY_CI
-    repo: andre-revealmd
+    repo: demo-revealmd
     value: GITHUB-PAGES
   - name: REPO_GITOPS
-    repo: andre-revealmd
-    value: dr3dr3/andre-gitops
+    repo: demo-revealmd
+    value: dr3dr3/demo-gitops
   - name: REPO_FLAGS
-    repo: andre-revealmd
-    value: dr3dr3/andre-feature-flags
+    repo: demo-revealmd
+    value: dr3dr3/demo-feature-flags
   - name: REPO_STAGE
-    repo: andre-revealmd
-    value: dr3dr3/andre-stage
+    repo: demo-revealmd
+    value: dr3dr3/demo-stage
   - name: REPO_PROD
-    repo: andre-revealmd
-    value: dr3dr3/andre-prod
+    repo: demo-revealmd
+    value: dr3dr3/demo-prod
   - name: CHECK_LINKS
-    repo: andre-revealmd
+    repo: demo-revealmd
     value: 'false'
 
   - name: SOLUTION
-    repo: andre-featurevisor
+    repo: demo-featurevisor
     value: featurevisor
   - name: SOLN_GROUP
-    repo: andre-featurevisor
+    repo: demo-featurevisor
     value: flags
   - name: SOLN_DIR
-    repo: andre-featurevisor
+    repo: demo-featurevisor
     value: featureflags
   - name: OUTPUT_DIR
-    repo: andre-featurevisor
+    repo: demo-featurevisor
     value: out
   - name: SITE_URL
-    repo: andre-featurevisor
-    value: https://ci-flags.andredreyer.com
+    repo: demo-featurevisor
+    value: https://ci-flags.a9ile.com
   - name: DEPLOY_CI
-    repo: andre-featurevisor
+    repo: demo-featurevisor
     value: GITHUB-PAGES
   - name: REPO_GITOPS
-    repo: andre-featurevisor
-    value: dr3dr3/andre-gitops
+    repo: demo-featurevisor
+    value: dr3dr3/demo-gitops
   - name: REPO_FLAGS
-    repo: andre-featurevisor
-    value: dr3dr3/andre-feature-flags
+    repo: demo-featurevisor
+    value: dr3dr3/demo-feature-flags
   - name: REPO_STAGE
-    repo: andre-featurevisor
-    value: dr3dr3/andre-stage
+    repo: demo-featurevisor
+    value: dr3dr3/demo-stage
   - name: REPO_PROD
-    repo: andre-featurevisor
-    value: dr3dr3/andre-prod
+    repo: demo-featurevisor
+    value: dr3dr3/demo-prod
   - name: CHECK_LINKS
-    repo: andre-featurevisor
+    repo: demo-featurevisor
     value: 'false'
 
   - name: SOLN_GROUP
-    repo: andre-stage
+    repo: demo-stage
     value: deployments
   - name: SITE_URL
-    repo: andre-stage
-    value: https://stg.andredreyer.com
+    repo: demo-stage
+    value: https://stg.a9ile.com
   - name: CHECK_LINKS
-    repo: andre-stage
+    repo: demo-stage
     value: 'true'
   - name: REPO_GITOPS
-    repo: andre-stage
-    value: dr3dr3/andre-gitops
+    repo: demo-stage
+    value: dr3dr3/demo-gitops
   - name: DEPLOY_BLUE
-    repo: andre-stage
+    repo: demo-stage
     value: GITHUB-PAGES
   - name: ENVIRONMENT
-    repo: andre-stage
+    repo: demo-stage
     value: stg
 
   - name: SOLN_GROUP
-    repo: andre-prod
+    repo: demo-prod
     value: deployments
   - name: SITE_URL
-    repo: andre-prod
-    value: https://www.andredreyer.com
+    repo: demo-prod
+    value: https://www.a9ile.com
   - name: CHECK_LINKS
-    repo: andre-prod
+    repo: demo-prod
     value: 'true'
   - name: REPO_GITOPS
-    repo: andre-prod
-    value: dr3dr3/andre-gitops
+    repo: demo-prod
+    value: dr3dr3/demo-gitops
   - name: DEPLOY_BLUE
-    repo: andre-prod
+    repo: demo-prod
     value: GITHUB-PAGES
   - name: ENVIRONMENT
-    repo: andre-prod
+    repo: demo-prod
     value: prd
