@@ -36,8 +36,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
   
-      # - name: Install Node dependencies
-      #   run: npm install
+      # Install dependencies needed by action scripts
+      - name: Install Node dependencies
+        run: npm install
 
       - name: Create label for short-lived feature branches
         run: gh label create "$LABEL_NAME" --description "$LABEL_DESC" --color "$LABEL_COLOR" --force
