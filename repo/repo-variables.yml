@@ -82,7 +82,7 @@ repoVariables:
     value: out
   - name: SITE_URL
     repo: demo-featurevisor
-    value: https://ci-flags.a9ile.com
+    value: https://flags.a9ile.com
   - name: DEPLOY_CI
     repo: demo-featurevisor
     value: GITHUB-PAGES
@@ -129,7 +129,7 @@ repoVariables:
     value: https://www.a9ile.com
   - name: CHECK_LINKS
     repo: demo-prod
-    value: 'true'
+    value: 'false'
   - name: REPO_GITOPS
     repo: demo-prod
     value: dr3dr3/demo-gitops
