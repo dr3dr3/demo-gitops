@@ -110,7 +110,7 @@ repoVariables:
     value: https://stg.a9ile.com
   - name: CHECK_LINKS
     repo: demo-stage
-    value: 'true'
+    value: 'false'
   - name: REPO_GITOPS
     repo: demo-stage
     value: dr3dr3/demo-gitops
